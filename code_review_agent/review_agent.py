@@ -66,7 +66,6 @@ Review ONLY the changed code for security vulnerabilities and code quality issue
 """
 
     config_kwargs = dict(
-        model="gemini-3.6-flash",
         system_instructions=(
             "You are a code review agent focused on security and quality. "
             "You review code diffs for vulnerabilities and quality issues using the loaded skills. "
